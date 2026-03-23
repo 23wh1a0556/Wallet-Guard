@@ -23,16 +23,16 @@ export default function WalletDetails() {
 
   return (
     <div className="page">
-      <h2 className="page-title">💼 Wallet Details</h2>
+      <h2 className="page-title"> Wallet Details</h2>
       <div className="card">
         <h3>Settlement Summary</h3>
         {settlements.length === 0 ? <p className="empty-msg">All settled up! 🎉</p> : (
           <ul className="settlement-list">
             {settlements.map((s, i) => (
               <li key={i} className="settlement-item">
-                <span>👤 {s.from}</span>
+                <span> {s.from}</span>
                 <span className="arrow">→</span>
-                <span>👤 {s.to}</span>
+                <span> {s.to}</span>
                 <span className="settlement-amount">₹{s.amount?.toFixed(2)}</span>
               </li>
             ))}

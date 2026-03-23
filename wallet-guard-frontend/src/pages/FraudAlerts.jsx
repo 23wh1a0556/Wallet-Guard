@@ -13,7 +13,7 @@ export default function FraudAlerts() {
 
   return (
     <div className="page">
-      <h2 className="page-title">🚨 Fraud Alerts</h2>
+      <h2 className="page-title"> Fraud Alerts</h2>
       {alerts.length === 0 ? (
         <div className="card"><p className="empty-msg">✅ No fraud alerts! Your spending looks normal.</p></div>
       ) : (

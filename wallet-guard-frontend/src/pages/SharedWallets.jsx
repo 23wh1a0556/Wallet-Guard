@@ -37,7 +37,7 @@ export default function SharedWallets() {
 
   return (
     <div className="page">
-      <h2 className="page-title">👛 Shared Wallets</h2>
+      <h2 className="page-title"> Shared Wallets</h2>
       {msg && <p className="success-msg">{msg}</p>}
       <div className="card">
         <h3>Create New Wallet</h3>

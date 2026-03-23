@@ -40,8 +40,8 @@ export default function ReceiptUpload({ walletId, onSuccess }) {
       {error && <p className="error-msg">{error}</p>}
       {result && (
         <div className="scan-result">
-          <p>✅ Merchant: <strong>{result.merchant}</strong></p>
-          <p>💰 Amount: <strong>₹{result.amount}</strong></p>
+          <p> Merchant: <strong>{result.merchant}</strong></p>
+          <p> Amount: <strong>₹{result.amount}</strong></p>
           <p>🏷 Category: <strong>{result.category}</strong></p>
         </div>
       )}
