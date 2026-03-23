@@ -27,7 +27,7 @@ export default function AddExpense() {
 
   return (
     <div className="page">
-      <h2 className="page-title">➕ Add Expense</h2>
+      <h2 className="page-title"> Add Expense</h2>
       <div className="card">
         <h3>Manual Expense</h3>
         {msg && <p className="success-msg">{msg}</p>}
